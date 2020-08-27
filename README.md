@@ -15,7 +15,7 @@ Sample API evaluation project
 ## Download the repository:
     - https://github.com/rbr8791/focuspythoneval.git
     
-## Set Up - Run with a Vagrant container
+## Set Up - Run with Conda Environment
 
 1. Download the conda environment for your O.S
     - [Conda] https://www.anaconda.com/products/individual
@@ -35,7 +35,7 @@ Sample API evaluation project
     - ```flask run```
 4. Open a web browser and navigate to http://localhost:5000/apidocs/#/
 
-## Set Up - Run with Conda Environment
+## Set Up - Run with a Vagrant container
 
 1. Download the VirtualBox package and install it (Make sure the binaries are in your path)
 2. Download the Vagrant package and install it (Make sure the binaries are in your path)
