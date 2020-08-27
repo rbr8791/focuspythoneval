@@ -1,0 +1,12 @@
+  Store the top 100 iTunes PodCasts into a SQlite database
+    Transform the API call results into a list of objects and stored the results into two different entities
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  responses:
+    500:
+      description: Error from getPodCasts
+    200:
+      description: getPodCasts route
+      schema:
+        message: Hello

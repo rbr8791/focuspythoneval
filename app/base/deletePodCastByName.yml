@@ -1,0 +1,18 @@
+  Delete a PodCast by name
+    Filter the records by the name parameter and delete the record from the database
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  parameters:
+    - name: name
+      in: path
+      type: string
+      required: true
+      description: The PodCast name
+  responses:
+    500:
+      description: Error from deletePodCastByName
+    200:
+      description: deletePodCastByName route
+      schema:
+        message: Hello

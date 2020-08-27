@@ -1,0 +1,18 @@
+  Get user token
+    Return generated authentication token after a valid login
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  parameters:
+    - name: id
+      in: path
+      type: string
+      required: true
+      description: The user id
+  responses:
+    500:
+      description: Error from getUserById
+    200:
+      description: getUserById route
+      schema:
+        message: Hello

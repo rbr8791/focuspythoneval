@@ -1,0 +1,12 @@
+  This is the language for Focus Services Python API
+    Call this api to test the basic authorization method
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  responses:
+    500:
+      description: Error from welcome
+    200:
+      description: Welcome route
+      schema:
+        message: Hello

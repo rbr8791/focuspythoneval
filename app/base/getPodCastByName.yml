@@ -1,0 +1,18 @@
+  Get a PodCast by name
+    Filter Stored PodCast by name
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  parameters:
+    - name: name
+      in: path
+      type: string
+      required: true
+      description: The PodCast name
+  responses:
+    500:
+      description: Error from getPodCastByName
+    200:
+      description: getPodCastByName route
+      schema:
+        message: Hello

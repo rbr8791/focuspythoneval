@@ -1,0 +1,18 @@
+  Delete a PodCast by id
+    Filter the records by id parameter and delete the record from the database
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  parameters:
+    - name: record_id
+      in: path
+      type: string
+      required: true
+      description: The PodCast SQLite Internal Id
+  responses:
+    500:
+      description: Error from deletePodCastById
+    200:
+      description: deletePodCastById route
+      schema:
+        message: Hello

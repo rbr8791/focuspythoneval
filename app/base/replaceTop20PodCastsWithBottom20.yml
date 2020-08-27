@@ -1,0 +1,12 @@
+  Obtain the bottom 20 PodCasts and replace the Top 20 records in the new JSON file
+    Response is a text file
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  responses:
+    500:
+      description: Error from replaceTop20PodCastsWithBottom20
+    200:
+      description: replaceTop20PodCastsWithBottom20 route
+      schema:
+        message: Hello

@@ -1,0 +1,21 @@
+  Add new user
+    Create a new user
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  post:
+    description: Add a new user
+    operationId: AddUser
+    consumes:
+      - application/json
+    parameters:
+      - name: body
+        in: body
+        required: true
+  responses:
+    500:
+      description: Error from deletePodCastById
+    200:
+      description: deletePodCastById route
+      schema:
+        message: Hello

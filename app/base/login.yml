@@ -1,0 +1,21 @@
+  Login
+    Start the login process
+    ---
+  tags:
+    - Focus Services Python Language API Evaluation test
+  post:
+    description: Login post authentication
+    operationId: login
+    consumes:
+      - application/json
+    parameters:
+      - name: body
+        in: body
+        required: true
+  responses:
+    500:
+      description: Error from login
+    200:
+      description: login route
+      schema:
+        message: Hello
